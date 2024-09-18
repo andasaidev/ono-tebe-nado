@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
@@ -13,10 +13,8 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li
-            class="header__links-list-item header__links-list-item_no-bullit"
-          >
-            главная
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link_active" href=#main>главная</a>
           </li>
           <li class="header__links-list-item header__link">
             <a href="#lots">посмотреть лоты</a>
@@ -27,17 +25,15 @@
         </ul>
       </nav>
       <a class="header__logo"
-        ><img src="images/logo-black.svg" alt="Логотип"
+        ><img src="./images/logo-black.svg" alt="Логотип"
       /></a>
       <address class="address header__address">
-        <p>
-          <a href="tel:+70000000">+9 999 555 5555</a><br />
-          <a href="mailto:mail@example.com">info@sobaka.ge</a><br />наб.
+          <a href="tel:+9(999)555-55-55">+9 999 555 5555</a><br />
+          <a href="info@sobaka.ge" target="_blank">info@sobaka.ge</a><br />наб.
           Принсенграхт 263-<br />265, Амстердам
-        </p>
       </address>
     </header>
-    <main>
+    <main id="main">
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
@@ -105,7 +101,7 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="https://111">посмотреть больше</a>
+        <a class="lots__look-more-link" href="https://111" target="_blank">посмотреть больше</a>
       </section>
       <section class="about" id="about">
         <div class="about__logo">
@@ -117,19 +113,18 @@
         </div>
         <div class="about__column">
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text">
-            Здесь вы не встретите очередное пафосное собрание невероятно
+          <div class="about__text">
+           <p> Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?
-          </p>
-          <p class="about__text">
+            странные вещи, созданные любителями? </p>
+          <p>
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
+            Когда-то они казались просто неудачными. Но, несмотря &nbsp на критику,
             кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
+            представить современную культуру.&nbsp Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
         </div>
@@ -137,16 +132,14 @@
     </main>
     <footer class="footer">
       <address class="address">
-        <p>
-          <a href="tel:+70000000">+9 999 555 5555</a><br />
-          <a href="mailto:mail@example.com">info@sobaka.ge</a><br />наб.
-          Принсенграхт 263-<br />265, Амстердам
-        </p>
+        <a href="tel:+9(999)555-55-55">+9 999 555 5555</a><br />
+        <a href="info@sobaka.ge" target="_blank">info@sobaka.ge</a><br />наб.
+        Принсенграхт 263-<br />265, Амстердам
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item footer__menu-link_active">
-            главная
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link_active" href="#main">главная</a>
           </li>
           <li class="footer__menu-list-item footer__menu-link">
             <a href="#lots">посмотреть лоты</a>
@@ -156,26 +149,26 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <p class="footer__social-list-item">
-          <a class="footer__social-link" href="https://0"
-            ><img class="footer__social-icon" src="images/yt.svg" alt="YouTube"
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://0" target="_blank"
+            ><img class="footer__social-icon" src="./images/yt.svg" alt="YouTube"
           /></a>
-        </p>
-        <p class="footer__social-list-item">
-          <a class="footer__social-link" href="https://0"
-            ><img class="footer__social-icon" src="images/vk.svg" alt="Вк"
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://0" target="_blank"
+            ><img class="footer__social-icon" src="./images/vk.svg" alt="Вк"
           /></a>
-        </p>
-        <p class="footer__social-list-item">
-          <a class="footer__social-link" href="https://0"
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://0" target="_blank"
             ><img
               class="footer__social-icon"
-              src="images/pinterest.svg"
+              src="./images/pinterest.svg"
               alt="Pinterest"
           /></a>
-        </p>
-      </div>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
